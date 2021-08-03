@@ -1,3 +1,7 @@
+<!--
+  js 加载前
+  js 还没加载成功，但是 html 已经加载成功的 landing 页面
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -189,7 +193,7 @@
           min-height: 420px;
         "
       >
-        <img src="<%= context.config.publicPath +'pro_icon.svg'%>" alt="logo" width="256" />
+        <span>js加载完成前loading......</span>
         <div class="page-loading-warp">
           <div class="ant-spin ant-spin-lg ant-spin-spinning">
             <span class="ant-spin-dot ant-spin-dot-spin"
@@ -197,14 +201,6 @@
               ><i class="ant-spin-dot-item"></i><i class="ant-spin-dot-item"></i
             ></span>
           </div>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: center">
-          <img
-            src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-            width="32"
-            style="margin-right: 8px"
-          />
-          Ant Design
         </div>
       </div>
     </div>
